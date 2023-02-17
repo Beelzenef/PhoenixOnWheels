@@ -9,9 +9,9 @@
 
     <TabBar>
         <Tab Title="Vehicles">
-            <ShellContent Title="Vehiculos" ContentTemplate="{DataTemplate views:MainPage}" />
+            <ShellContent Title="Vehiculos" ContentTemplate="{DataTemplate views:VehiclePage}" />
         </Tab>
-        <Tab Title="Identidades">
+        <Tab Title="People">
             <ShellContent Title="Red list" ContentTemplate="{DataTemplate views:MainPage}" />
             <ShellContent Title="Black list" ContentTemplate="{DataTemplate views:MainPage}" />
         </Tab>
